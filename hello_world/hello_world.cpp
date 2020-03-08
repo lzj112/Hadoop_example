@@ -31,6 +31,7 @@ int main(int argc, char **argv)
     }
     cout << __LINE__ << ":Connect to hdfs success,cur time:" << time(NULL) << endl;
 
+/*
     //创建文件夹
     if( 0 != hdfsCreateDirectory(m_hdfsfs, "/datacenter/data"))
     {
@@ -57,7 +58,7 @@ int main(int argc, char **argv)
     {
         cout << "move file from /datacenter/test/tmp/test.nb to /datacenter/data/test.nb failed" << endl;
     }
-
+*/
     int FileNum;
     hdfsFileInfo* fileinfo;
     /*
